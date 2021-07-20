@@ -23,14 +23,5 @@ print(relatives)
 for name in relatives:
     print(name)
 
-# Looping using the iteritems method
-fruit = {
-    "name": "Mango",
-    "color": "yellow",
-    "weight": "0.5kg",
-    "species": "Kesar",
-    "flavor": "sweet"
-}
-for key, value in fruit.items():
-    print("%s --> %s" %(key, value))
+
 
