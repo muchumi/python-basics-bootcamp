@@ -40,3 +40,19 @@ breedTwo = Dog('Alpha')
 ['play dead']
 
 """
+
+"""
+    If the same attribute name occurs in both an instance and in a class, then attribute look up
+    prioritizes the instance.
+"""
+
+class Entertainer:
+    profession = 'Actor'
+    movies = 'Comedy'
+
+personalityOne = Entertainer()
+print(personalityOne.profession, personalityOne.movies)
+personalityTwo = Entertainer()
+personalityTwo.movies = 'Horror'
+print(personalityTwo.profession, personalityTwo.movies)
+
