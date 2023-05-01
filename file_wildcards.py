@@ -1,6 +1,6 @@
 import glob
 
-# The glob module provides a function for making file lists from directory wildcard searches
+# The glob module, which is short for global, is a function that's used to search for files that match a specific file pattern or name.
 list = glob.glob('*.py')
 print(list)
 
