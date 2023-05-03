@@ -26,3 +26,15 @@ for key, value in fruit.items():
 # Here we apply the key only
 for key in fruit:
     print("%s --> %s" %(key, fruit[key]))
+
+# Using Dictionaries in Python to determine how many times an entry appears
+# Making a histogram using dictionaries
+
+counter = dict()
+students = ["Zawadi", "Rehema", "Neema", "Amani", "Amani", "Waridi"]
+for student in students:
+    if student not in counter:
+        counter[student] = 1
+    else:
+        counter[student] = counter[student] + 1
+print(counter)
